@@ -43,7 +43,9 @@ body {
     letter-spacing: 0.2rem;
     color: hsl(228, 12%, 48%);
     margin-top: 1.5rem;
-    font: 400 0.75rem 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.3125rem;
     line-height: 120%;
 }
@@ -52,13 +54,16 @@ body {
     margin: 0.5rem 0;
     color: hsl(212, 21%, 14%);
     font-weight: 700;
-    font: 700 2rem 'Fraunces', serif;
+    font-size: 2rem;
+    font-family: "Fraunces", serif;
     padding: 0.5rem 0;
 }
 
 .product-description {
     color: hsl(228, 12%, 48%);
-    font: 500 0.875rem 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
     line-height: 160%;
 }
 
@@ -69,14 +74,18 @@ body {
 
 .current-price {
     color: hsl(158, 36%, 37%);
-    font: 700 2rem 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Fraunces", serif;
     margin-right: 0.5rem;
     padding: 0.5rem 0;
 }
 
 .original-price {
     color: hsl(228, 12%, 48%);
-    font: 500 0.8125rem 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: line-through;
     line-height: 120%;
     margin-left: 0.5rem;
@@ -93,7 +102,9 @@ body {
     border: none;
     border-radius: 0.5rem;
     padding: 1rem;
-    font: 700 0.875rem 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
