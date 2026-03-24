@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 37.5rem;
+}
+
+.perfume {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: block;
+    object-fit: cover;
+}
+
+.product-image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.product-info {
+    width: 50%;
+    padding: 2rem;
+}
+
+.product-category {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: hsl(228, 12%, 48%);
+    margin-top: 1.5rem;
+    font: 400 0.75rem 'Montserrat', sans-serif;
+    letter-spacing: 0.3125rem;
+    line-height: 120%;
+}
+
+.product-name {
+    margin: 0.5rem 0;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font: 700 2rem 'Fraunces', serif;
+    padding: 0.5rem 0;
+}
+
+.product-description {
+    color: hsl(228, 12%, 48%);
+    font: 500 0.875rem 'Montserrat', sans-serif;
+    line-height: 160%;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+}
+
+.current-price {
+    color: hsl(158, 36%, 37%);
+    font: 700 2rem 'Fraunces', serif;
+    margin-right: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.original-price {
+    color: hsl(228, 12%, 48%);
+    font: 500 0.8125rem 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    line-height: 120%;
+    margin-left: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.cart-icon {
+    margin-right: 0.5rem;
+}
+
+.add-to-cart {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font: 700 0.875rem 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.add-to-cart:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+.add-to-cart:focus {
+    background-color: hsl(158, 42%, 17%);
+}
+
+@media (max-width: 37rem) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+ .card {
+    width: 100%;
+    border-radius: 0;
+    flex-direction: column;
+    border-radius: 0.5rem;
+ }
+
+  .product-image {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    box-sizing: border-box;
+  }
+
+  .product-info {
+    width: 100%;
+    border-radius: 0;
+    margin:0;
+    padding: 2rem;
+  }
+}
